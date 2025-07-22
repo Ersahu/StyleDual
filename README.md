@@ -13,20 +13,17 @@ To run this project locally:
 
 📦 StyleDual
 
-├── index.html        # Main HTML page
-
-├── style.css         # Styling and responsive design
-
-├── script.js         # Product filtering and slider logic
-
+├── index.html        # Main HTML page.
+├── style.css         # Styling and responsive design.
+├── script.js         # Product filtering and slider logic.
 ├── /images           # (Optional) Folder for images like logo.png, f1.jpg, etc.
 
 ## 💻 Tech Stack
-**HTML** – Semantic layout and structure
+- **HTML** – Semantic layout and structure
 
-**CSS** – Custom styling with responsive design
+- **CSS** – Custom styling with responsive design
 
-**JavaScript** – DOM manipulation, product filter, image slider
+- **JavaScript** – DOM manipulation, product filter, image slider
 
 ## 🧩 Features
 
@@ -42,16 +39,16 @@ To run this project locally:
 
 ✅ Social media icons and email subscription in footer
 
-## 📸 Screenshots
+## 📸 Preview
 <img width="1919" height="1104" alt="image" src="https://github.com/user-attachments/assets/1bffe9e3-5458-45f4-bcad-980e1f39329f" />
 
 
 ## 📌 Future Improvements
-Add product cart functionality
+- Add product cart functionality
 
-Connect to backend/database for real product management
+- Connect to backend/database for real product management
 
-Add user login and authentication
+- Add user login and authentication
 
 ## 🤝 Contributions
 We welcome pull requests! For major changes, please open an issue to discuss what you'd like to improve or add.
