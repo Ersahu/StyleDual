@@ -11,7 +11,7 @@ To run this project locally:
    
 ## 📁 Project Structure
 
-📦 StyleDual
+**📦 StyleDual**
 
 ├── index.html        # Main HTML page.
 
