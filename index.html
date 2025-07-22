@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d73dbf80a8.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div  class="logo">
+            <img src="logo.png" alt="Brand Logo" class="logo-img"> <!-- Replace with your actual logo -->
+        </div>
+       <div class="site-name">
+        <h1>StyleDual</h1> 
+    </div>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Login</a>
+            <a href="#">Cart 🛒</a>
+        </nav>
+        
+    </header>
+    
+    
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="a.png" alt="Fashion Banner">
+        <div class="fashion-content women-fashion">
+            <h2><span class="highlight-pink">WOMEN'S</span> <br>FASHION</h2>
+            <p>New & Fresh collection<br>arrival in believe store</p>
+            <button class="shop-btn pink-btn">SHOP NOW</button>
+        </div>
+        <div class="fashion-content men-fashion">
+            <h2><span class="highlight-blue">MEN'S</span><br> FASHION</h2>
+            <p>New & Fresh collection<br>arrival in believe store</p>
+            <button class="shop-btn blue-btn">SHOP NOW</button>
+        </div>
+    </section>
+    
+    
+<!-- Category Section -->
+    <section class="categories">
+        <div class="category-box men">
+            <span>MEN CLOTHING</span>
+            <button class="buy-now">BUY NOW</button>
+        </div>
+        <div class="category-box accessories">
+            <span>ACCESSORIES</span>
+            <button class="buy-now">BUY NOW</button>
+        </div>
+        <div class="category-box women">
+            <span>WOMEN CLOTHING</span>
+            <button class="buy-now">BUY NOW</button>
+        </div>
+    </section>
+    <hr class="dashed-line1">
+    <!-- Category Section -->
+    <section class="product-section">
+    <div class="product-categories">
+      <span class="category active" data-category="featured">FEATURED</span>
+      <span class="category" data-category="new-arrivals">NEW ARRIVALS</span>
+      <span class="category" data-category="best-sellers">BEST SELLER</span>
+    </div>
+
+    <div class="product-container">
+      <div class="product-grid" id="product-container">
+        <!-- Products will be inserted here by JS -->
+      </div>
+    </div>
+  </section>
+    
+   <!-- Brand Section -->
+    <hr class="dashed-line1">
+   <section class="brands">
+  <h2>BRANDS</h2>
+  <section class="image-slider">
+    <div class="slider-container">
+      <img src="l1.jpg" alt="Image 1">
+      <img src="l2.jpg" alt="Image 2">
+      <img src="l3.png" alt="Image 3">
+      <img src="l4.jpg" alt="Image 4">
+      <img src="l5.png" alt="Image 5">
+      <img src="l6.png" alt="Image 6">
+      <img src="l7.png" alt="Image 7">
+      <img src="l8.png" alt="Image 8">
+    </div>
+  </section>
+  
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>WELCOME TO</h3>
+                <h2 class="brand-name">StyleDual</h2>
+                <p>StyleDual – Style That Switches With You</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>QUICK LINKS</h3>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>SUBSCRIBE FOR OFFERS & UPDATES</h3>
+                <p>Enter your email and we’ll send you a coupon with 10% off your next order.</p>
+                <input type="email" placeholder="Enter email">
+                <button>SUBSCRIBE NOW</button>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>Copyright 2025 All Rights Reserved by </a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
