@@ -14,8 +14,11 @@ To run this project locally:
 📦 StyleDual
 
 ├── index.html        # Main HTML page.
+
 ├── style.css         # Styling and responsive design.
+
 ├── script.js         # Product filtering and slider logic.
+
 ├── /images           # (Optional) Folder for images like logo.png, f1.jpg, etc.
 
 ## 💻 Tech Stack
